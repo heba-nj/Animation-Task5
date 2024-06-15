@@ -1,0 +1,24 @@
+.textt {
+  background: linear-gradient(90deg,#4C4C4C,#1D46D4,#D41D1D);
+  background-size: 400%;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+.heba {
+  border: 6px solid transparent;
+  background: linear-gradient(180deg,rgba(228, 79, 38, 1),rgba(0, 192, 253, 1),rgba(228, 79, 38, 1));
+  background-clip: border-box;
+  box-shadow: 0 0 15px #33A9DC;
+  object-fit: cover;
+}
